@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo app</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- font links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+    
+    <h1>To-do List</h1><img class="img" src="./cloud.png" alt="smile" width="200px" height="50px">
+    <h3>Remainds you everything.</h3>
+    <img class="img_cloud" src="./cloud.png" alt="smile" width="200px" height="50px">
+    
+    <form id="form_task">
+        <div class="todoinput">
+            <col  style="background-color:transparent">
+            <input type="text" class="form_title" span="5" placeholder="Title..."  cellspacing="10"><br><br>
+            <input type="date" class="form_deadline" placeholder="deadline">
+           
+            
+
+        </div>
+                
+                <button class="form_button" type="submit">
+                    <!-- <i class="fas fa-plus-square"></i> -->
+                </button><br>
+                
+                <center>
+                    <div class="nooftasks"></div>
+                    <section class="todo_task_list">
+                    </section>
+                </center>
+                <div class="form">
+                <input type="text" class="form_description" placeholder="Description of To-do sentence"></div> <br>
+            <div class="slider">
+
+            </div>
+
+    </form>
+    
+    
+    
+    <script type="text/javascript" src="java.js"></script>
+</body>
+
+</html>

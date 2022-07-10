@@ -1,0 +1,177 @@
+* {
+  background-color: #C8B6E2;
+  position: relative;
+}
+h1 {
+  color: #495C83;
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family: 'Sacramento', cursive;
+  /* padding-left: 150px; */
+  padding-top: 30px;
+  font-size: 70px;
+  text-align: center;
+
+}
+
+h3 {
+  color: #DAEAF1;
+  font-family: 'Dancing Script', cursive;
+  font-size: 25px;
+  text-align: center;
+  padding-top: -10px;
+}
+.todoinput {
+  text-align: center;
+  padding-top: 30px;
+
+}
+
+.form_title {
+  width: 500px;
+  height: 30px;
+  /* margin-bottom: 50px; */
+  border-radius: 5px;
+  border-color: #495C83;
+    border-style: solid;
+  
+}
+.form_description {
+  width: 500px;
+  height: 30px;
+  /* padding-bottom: 70px; */
+  border-radius: 5px;
+  border-color:#495C83;
+  border-style: solid;
+  text-align: center;
+}
+.form{
+  padding-left: 500px;
+  margin-top: 40px;
+}
+
+.form_button {
+  width: 60px;
+  height: 30px;
+  text-align: center;
+  margin-left: 720px;
+  border-radius: 5px;
+  border-color: transparent;
+    border-style: solid;
+
+}
+.form_title:hover{
+    border-color: #F7ECDE;
+}
+.form_button:hover {
+  border-color: transparent;
+}
+.form_description:hover {
+  border-color: #F7ECDE;
+}
+.img_cloud{
+  padding-left: 80px;
+  padding-top: -30px;
+}
+.img{
+  padding-left: 1100px;
+  margin-top: -500px;
+}
+.slider{
+  width: 240px;
+  height: 220px;
+  background: url(./boy1-removebg-preview.png);
+  margin: 100px auto;
+  margin-left: 1200px;
+  margin-top: -200px;
+  animation: slide 20s infinite;
+  
+}
+@keyframes slide {
+  25%{
+    background: url(./girl1-removebg-preview.png);
+  }
+  50%{
+    background: url(./boy-removebg-preview.png);
+  }
+  75%{
+      background: url(./cat-removebg-preview.png);
+    }
+  100% {
+      background: url(./hi-removebg-preview.png);
+    }
+  
+}
+/* --- */
+/* ------ Task List ---------- */ 
+
+
+.todo_task{
+  width: 50%;
+  margin: 1.5%;
+  /* padding: 2%; */
+  /* background-color:#A8A4CE; */
+  border: 1ps solid black;
+  border-radius: 10px;
+  text-align: start;
+}
+.todo_task_title{
+  font-size: 25px;
+  color: #DAEAF1;
+  margin: 120px;
+  font-family: 'Dancing Script', cursive;
+} 
+.btn{
+   width: 50px;
+   margin: 10px;
+   padding: 1%;
+   height: 30px;
+   border: 1px solid transparent;
+   border-radius: 15px;
+}
+.btn_check{
+  color: rgb(0, 255, 68);
+  
+  /* background-color: rgb(255, 255, 255); */
+}
+.btn_delete{
+  color: rgb(255, 38, 0);
+  /* background-color: rgb(255, 255, 255); */
+}
+.btn_display{
+  color: rgb(25, 0, 255);
+  /* background-color: rgb(255, 255, 255); */
+}
+
+/* .btn_check:hover{
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 255, 68);
+}
+.btn_delete:hover{
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 38, 0);
+}
+.btn_display:hover{
+  color: rgb(255, 255, 255);
+  background-color: rgb(25, 0, 255);
+} */
+
+.todo_task_description{
+  margin: 1.5%;
+  padding: 1%;
+  margin-top: 0;
+  text-align: justify;
+}
+.task_description{
+  color: black;
+  padding: 1%;
+  font-size: 15px;
+}
+.task_deadline{
+  color:#495C83 ;
+  font-size: medium;
+  
+  margin-left: 120px;
+}
+.check{
+  text-decoration: line-through;
+}
